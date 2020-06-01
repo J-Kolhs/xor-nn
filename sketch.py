@@ -3,7 +3,7 @@ from random import randint
 from numpy import random
 
 inputs = [[0, 0], [1, 1], [0, 1], [1,0]]
-targets = [[1], [0], [1], [0]]
+targets = [[0], [0], [1], [1]]
 
 def output(x):
     if x < 0.5:
